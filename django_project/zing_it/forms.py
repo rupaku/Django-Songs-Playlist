@@ -9,12 +9,12 @@ class Signup(forms.Form):
     confirm_password = forms.CharField(widget=forms.PasswordInput,required=True,min_length=5)
 
 
-
-
 class Login(forms.Form):
     username = forms.CharField(required=True)
     password = forms.CharField(widget=forms.PasswordInput,required=True,min_length=5)
 
+
+# Model Form with Model and fields 
 class Edit(forms.ModelForm):
 
     class Meta:

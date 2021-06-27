@@ -9,6 +9,7 @@ class Song(models.Model):
     length = models.TimeField()
     playlist_id= models.IntegerField(default=0)
 
+    # __str__ to convert object into string
     def __str__(self):
         return str(self.track)
 

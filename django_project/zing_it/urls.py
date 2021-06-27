@@ -9,3 +9,5 @@ urlpatterns = [
     path('playlist/<int:id>',views.playlist,name="playlist"),
     path('edit/<int:id>',views.edit,name="edit"),
 ]
+
+# playlist/<int:id> -> to convert string to integer for id field

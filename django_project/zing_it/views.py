@@ -10,6 +10,10 @@ from .forms import Signup,Login, Edit
 from .models import Song, Playlist
 
 # Create your views here.
+# Songs.Objects.create --- create
+# Playlist.objects.get(pk=id)   --- Fetch
+# Song.objects.all() -- FetchAll
+# User.objects.create_user(username= name, email= email,password= password)   --create user using ModelForm
 
 
 

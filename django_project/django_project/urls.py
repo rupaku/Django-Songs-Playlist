@@ -20,3 +20,6 @@ urlpatterns = [
     path('',include('zing_it.urls')),
     path('admin/', admin.site.urls),
 ]
+
+
+# include for application url path
